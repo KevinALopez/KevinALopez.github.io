@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Actividad1</title>
+        <link rel="stylesheet" href="contacto.css" />
+    </head>
+    <body>
+        <div class="main-container">
+            <header class="main-header">
+                <div class="logo-login">
+                    <div class="mobile-container">
+                        <input type="checkbox" id="menu-checkbox" />
+                        <label for="menu-checkbox">
+                            <img
+                                src="Assets/icons8-lines-64.png"
+                                alt="dropdown icon"
+                                class="dropdown-icon"
+                            />
+                        </label>
+
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-link">
+                                <img
+                                    src="Assets/icons8-página-principal-48.png"
+                                    alt="Home icon"
+                                    class="dropdown-icon-options"
+                                /><a href="index.html" class="white">HOME</a>
+                            </li>
+                            <li class="dropdown-link">
+                                <img
+                                    src="Assets/icons8-who-50.png"
+                                    alt="who icon"
+                                    class="dropdown-icon-options"
+                                /><a href="QuienesSomos.html" class="white"
+                                    >¿QUIENES SOMOS?</a
+                                >
+                            </li>
+                            <li class="dropdown-link">
+                                <img
+                                    src="Assets/icons8-marcador-de-mapa-50.png"
+                                    alt="map icon"
+                                    class="dropdown-icon-options"
+                                /><a href="generos.html" class="white"
+                                    >GENEROS</a
+                                >
+                            </li>
+                            <li id="last-dropdown-link">
+                                <img
+                                    src="Assets/icons8-persona-de-sexo-masculino-64.png"
+                                    alt="contact icon"
+                                    class="dropdown-icon-options"
+                                /><a href="" class="white">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="Assets/logo.png" alt="logo" class="logo" />
+                    <div class="center-div-content ml-10px login">
+                        <img
+                            src="Assets/icons8-usuario-50.png"
+                            alt="icono de usuario"
+                            class="usuario-icono"
+                        />
+                        <a href="">Login</a
+                        ><span class="yellow cursor-none"> | </span
+                        ><a href="">Sign up</a>
+                    </div>
+                </div>
+                <div class="center-div-content contact-container">
+                    <a href="">Request</a
+                    ><span class="yellow cursor-none"> | </span
+                    ><a href="">Contact us</a
+                    ><span class="yellow cursor-none"> | </span
+                    ><a href="">Upcoming</a>
+                    <img
+                        src="Assets/icons8-aplicación-telegrama-50 (1).png"
+                        alt="icono telegram"
+                        class="contact-icons"
+                    />
+                    <img
+                        src="Assets/icons8-logotipo-de-la-discordia-50 (1).png"
+                        alt="icono de discord"
+                        class="contact-icons"
+                    />
+                    <img
+                        src="Assets/icons8-facebook-64.png"
+                        alt="icono de facebook"
+                        class="contact-icons"
+                    />
+                    <img
+                        src="Assets/icons8-reddit-30.png"
+                        alt="icono de reddit"
+                        class="contact-icons"
+                    />
+                    <img
+                        src="Assets/icons8-twitter-64.png"
+                        alt="icono de twitter"
+                        class="contact-icons"
+                    />
+                </div>
+            </header>
+            <nav class="nav-container">
+                <div class="nav-opciones">
+                    <a href="index.html" class="white nav-link">HOME</a
+                    ><a href="" class="white nav-link">¿QUIENES SOMOS?</a
+                    ><a href="generos.html" class="white nav-link">GENEROS</a
+                    ><a href="" class="white home">CONTACTO</a>
+                </div>
+                <div class="center-div-content search-container">
+                    <img
+                        src="Assets/icons8-magnifying-glass-96.png"
+                        alt="search icon"
+                        class="search-icon"
+                    />
+                    <input
+                        type="text"
+                        placeholder="search"
+                        class="search-bar"
+                    />
+                </div>
+            </nav>
+            <div class="vid-section-aside">
+                <section class="videos-section">
+                    <header class="section-header black">
+                        <div class="section-title">CONTACT US</div>
+                    </header>
+                    <article class="videos-container">
+                        <p class="white form-info mobile-none">
+                            If you have business inquiries or other questions,
+                            please fill out the following form to contact us or
+                            send email to sample@mail.com. Thank you.
+                        </p>
+                        <form action="">
+                            <label for="form-name" class="white block">
+                                <p>Enter your name:</p>
+                                <input
+                                    type="text"
+                                    id="form-name"
+                                    class="focus-none text-input"
+                                />
+                            </label>
+                            <label for="form-email" class="white block">
+                                Enter your email:<br />
+                                <input
+                                    type="email"
+                                    id="form-email"
+                                    class="focus-none text-input"
+                                />
+                            </label>
+                            <label for="subject-dropdown" class="white">
+                                <p>Select subject:</p>
+                                <select
+                                    name="subject"
+                                    id="subject-dropdown"
+                                    class="text-input focus-none form-select"
+                                >
+                                    <option disabled selected>
+                                        Select an option...
+                                    </option>
+                                    <optgroup label="Bug Report">
+                                        <option value="Video not found">
+                                            Video not found
+                                        </option>
+                                        <option value="Video not loading">
+                                            Video not loading
+                                        </option>
+                                        <option
+                                            value="Video server not responding"
+                                        >
+                                            Video server not responding
+                                        </option>
+                                        <option value="other bug">
+                                            Other bug
+                                        </option>
+                                    </optgroup>
+                                    <optgroup label="Others">
+                                        <option value="Suggestion">
+                                            Suggestion
+                                        </option>
+                                        <option value="Question">
+                                            Question
+                                        </option>
+                                        <option value="Business">
+                                            Business
+                                        </option>
+                                    </optgroup>
+                                </select>
+                                <br />
+                            </label>
+                            <label for="" class="white">
+                                <p>Are you above 18 years old?</p>
+                                <label for="yes" class="radio-label"
+                                    ><input
+                                        type="radio"
+                                        name="above18"
+                                        id="yes"
+                                    /><span class="ml-10px">Yes</span></label
+                                >
+                                <label for="no"
+                                    ><input
+                                        type="radio"
+                                        name="above18"
+                                        id="no"
+                                    /><span class="ml-10px">No</span></label
+                                ><br />
+                            </label>
+                            <label for="mail-content">
+                                <p class="white">Write your message:</p>
+                                <textarea
+                                    name="mail-content"
+                                    id="mail-content"
+                                    cols="30"
+                                    rows="10"
+                                    class="focus-none"
+                                ></textarea
+                                ><br />
+                            </label>
+                            <label for="agreement" class="white check-label">
+                                <input
+                                    type="checkbox"
+                                    name=""
+                                    id="agreement"
+                                    class="check-input"
+                                />
+                                <span class="check-span"
+                                    >I have read and accept the terms of
+                                    privacy.</span
+                                >
+                                <br />
+                            </label>
+                            <input
+                                type="submit"
+                                value="Submit"
+                                class="form-button"
+                            />
+                        </form>
+                    </article>
+                </section>
+                <aside class="random-side-vid">
+                    <h1 class="aside-title">RANDOM SERIES</h1>
+                    <img
+                        src="Assets/icons8-imagen-100.png"
+                        alt=""
+                        class="aside-image"
+                    />
+                    <span class="yellow vid-title hover-white">Title</span>
+                    <img
+                        src="Assets/icons8-imagen-100.png"
+                        alt=""
+                        class="aside-image"
+                    />
+                    <span class="yellow vid-title hover-white">Title</span>
+                    <img
+                        src="Assets/icons8-imagen-100.png"
+                        alt=""
+                        class="aside-image"
+                    />
+                    <span class="yellow vid-title hover-white">Title</span>
+                    <img
+                        src="Assets/icons8-imagen-100.png"
+                        alt=""
+                        class="aside-image"
+                    />
+                    <span class="yellow vid-title hover-white">Title</span>
+                </aside>
+            </div>
+            <footer class="main-footer light-gray">
+                <div class="footer-line"></div>
+                <div class="footer-links">
+                    <a href="">About us</a><a href="">Request</a
+                    ><a href="">Privacy</a><a href="">Contact us</a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
